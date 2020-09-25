@@ -22,7 +22,6 @@ Disk Usage/Free Utility (Linux, BSD & macOS)
 ### Packages
 
 - Arch Linux: [duf](https://aur.archlinux.org/packages/duf/)
-- macOS: `brew install muesli/homebrew-tap/duf`
 - [Packages](https://github.com/muesli/duf/releases) in Debian & RPM formats
 
 ### Binaries
@@ -39,6 +38,10 @@ Compiling duf is easy, simply run:
     git clone https://github.com/muesli/duf.git
     cd duf
     go build
+
+Or you can install duf with Go command:
+
+    go get -u -v github.com/muesli/duf
 
 ## Usage
 
